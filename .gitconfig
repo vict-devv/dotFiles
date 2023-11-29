@@ -1,0 +1,35 @@
+[user]
+        email = victor.devv@gmail.com
+        name = Victor
+        signingkey = ABCDE12345
+[core]
+        editor = nvim
+[color]
+        ui = auto
+[alias]
+        lg = log --graph --pretty=format:'%C(auto)%h -%C(auto)%d %s %C(cyan)%an %C(green)%cr' --abbrev-commit --date=relative
+        br = branch
+        co = checkout
+        ps = push
+        psf = push -f
+        rb = rebase
+        rba = rebase --abort
+        rbc = rebase --continue
+        rbs = rebase --skip
+        rbi = rebase -i
+        mg = merge
+        mga = merge --abort
+        mgc = merge --continue
+        mgs = merge --skip
+        aa = add --all
+        st = status
+        cm = commit -m
+        cma = commit --amend
+[pull]
+        rebase = true
+[init]
+        defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
